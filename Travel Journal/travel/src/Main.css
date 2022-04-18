@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+.card{
+    display: flex;
+    margin: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px -8px;
+}
+.card:hover{
+    border: 1px solid grey;
+}
+#image{
+    width: 300px;
+    padding: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#logo{
+    color: red;
+}
+#name{
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+#price{
+    padding: 5px;
+    color: green;
+}
+#star{
+    color: goldenrod;
+}
