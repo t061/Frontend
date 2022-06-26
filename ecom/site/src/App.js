@@ -1,12 +1,19 @@
-import './App.css';
-import NavBar from './moudules/NavBar';
+import React from "react"
+import dd from "./data.js"
+import MainCon from "./moudules/MainCon.js"
+import Header from "./moudules/NavBar.js"
+import "./App.css"
 
-function App() {
-  return (
-    <div className="App">
-      <div id='nav'><NavBar /></div>
+export default function App(){
+    const map = dd.map((x)=>{
+        return(
+        <MainCon item = {x}/>)
+        // {...x}
+    })
+    return(
+    <div className="body">
+        <Header />
+        <div className="main">{map}</div>
     </div>
-  );
+    )
 }
-
-export default App;

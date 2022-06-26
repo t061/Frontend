@@ -1,18 +1,63 @@
 *{
     margin: 0;
-    padding: 0;
 }
-.navOutline{
+.header{
+    width: 100%;
+    background-color: white;
     display: flex;
     justify-content: space-around;
-    box-shadow: 5 5 5 red;
+    padding-bottom: 20px;
+    box-shadow: 5px 0px 10px rgb(0,0,0,0.1);
+    position:fixed;
+    z-index: 1;
 }
-.navOptions ul{
+.leftnav{
+    color: red;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#logohead{
+    margin-top: 5px;
+    padding-right: 30px;
+    margin-right: 50px;
+}
+.center ul{
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    padding-top: 20px;
 }
 a:link{
     text-decoration: none;
-    color: grey;
+}
+.firstRef a{
+    color: darkgray;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.secondRef a{
+    color: darkgray;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.thirdRef a{
+    color: darkgray;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.fourthRef a{
+    color: darkgray;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.rightnav{
+    margin-top: 10px;
+}
+#mail{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+#user{
+    margin-top: 10px;
+    margin-left: 10px;
 }
